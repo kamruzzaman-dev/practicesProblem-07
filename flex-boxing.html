@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>flex-boxing</title>
+    <style>
+        body {
+            width: 70%;
+            margin: auto;
+            border: 2px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+        background-color: tomato;
+
+    }
+    ul li{
+        list-style-type:none;
+        padding: 10px 40px;
+    }
+
+    li a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        text-transform: capitalize;
+
+    }
+     ul{
+         display: flex;
+       
+     }
+
+     ul li:hover a{
+        color: black;
+     }
+        /* container desging start  */
+        .flex-box{
+            display:flex;
+        }
+        .left{
+            width: 70%;
+            padding: 5px;
+            background-color:khaki;
+        }
+        .right{
+            width: 30%;
+            padding: 5px;
+            background-color:lightblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .box-1{
+            background-color:lightgray;
+            padding: 25px;
+        }
+        .box-2{
+            background-color:lightyellow;
+            padding: 25px;
+        }
+        .box-3{
+            background-color:mediumaquamarine;
+            padding: 25px;
+        }
+        .box-4{
+            background-color:rgb(138, 228, 198);
+            padding: 25px;
+        }
+        .box-5{
+            background-color:mediumslateblue;
+            padding: 25px;
+        }
+
+        body>h1{
+            margin: 0;
+            padding: 25px;
+            text-align: center;
+            text-transform:uppercase;
+            background-color: rgb(172, 71, 255);
+            color: white;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="./calendar.html">calender</a></li>
+                <li><a href="./main.html">tiger mama</a></li>
+                <li><a href="./flex-boxing.html">flexBox</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    <h1>i am flexing right now</h1>
+    <div class="flex-box">
+        <div class="left">
+            <div class="box-1">
+                <h1>box-1</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga sequi dolore minus rem itaque
+                    molestiae
+                    adipisci nisi enim deleniti iure placeat, excepturi quidem nulla, eos quisquam officiis consequatur.
+                    Eligendi, accusantium.</p>
+            </div>
+            <div class="box-2">
+                <h1>box-2</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga sequi dolore minus rem itaque
+                    molestiae
+                    adipisci nisi enim deleniti iure placeat, excepturi quidem nulla, eos quisquam officiis consequatur.
+                    Eligendi, accusantium.</p>
+            </div>
+            <div class="box-3">
+                <h1>box-3</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga sequi dolore minus rem itaque
+                    molestiae
+                    adipisci nisi enim deleniti iure placeat, excepturi quidem nulla, eos quisquam officiis consequatur.
+                    Eligendi, accusantium.</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="box-4">
+                <h1>box-4</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga sequi dolore minus rem itaque
+                    molestiae
+                    adipisci nisi enim deleniti iure placeat, excepturi quidem nulla, eos quisquam officiis consequatur.
+                    Eligendi, accusantium.</p>
+            </div>
+            <div class="box-5">
+                <h1>box-5</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga sequi dolore minus rem itaque
+                    molestiae
+                    adipisci nisi enim deleniti iure placeat, excepturi quidem nulla, eos quisquam officiis consequatur.
+                    Eligendi, accusantium.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
