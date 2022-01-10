@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginform</title>
+    <style>
+        body {
+            width: 70%;
+            margin: auto;
+            border: 2px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav {
+            background-color: tomato;
+
+        }
+
+        ul li {
+            list-style-type: none;
+            padding: 10px 40px;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            text-transform: capitalize;
+
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+        ul li:hover a {
+            color: black;
+        }
+
+        .contianer {
+            /* border: 1px solid black; */
+        }
+
+        .user {
+            margin: 0 auto;
+            text-align: center;
+            width: 200px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .fas {
+            font-size: 150px;
+            margin: 20px;
+            color: black;
+        }
+        .input-item{
+            margin: 5px;
+            padding: 10px;
+        }
+        .input-item:focus{
+           color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="./calendar.html">calender</a></li>
+                <li><a href="./main.html">tiger mama</a></li>
+                <li><a href="./flex-boxing.html">flexBox</a></li>
+                <li><a href="./login.html">logIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contianer">
+        <div class="user">
+            <i class="fas fa-user-secret"></i>
+            <form action="#">
+                <input class="input-item" type="text" placeholder="User ID"> <br>
+                <input class="input-item"type="password" name="pass" id="passs" placeholder="Password">
+            </form>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f0ecdff264.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
