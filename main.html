@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main file</title>
+</head>
+<style>
+    body{
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 70%;
+        border: 2px solid black;
+        margin: auto;
+    }
+    /* navbar desing  */
+    nav{
+        background-color: tomato;
+
+    }
+    ul li{
+        list-style-type:none;
+        padding: 10px 40px;
+    }
+
+    li a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        text-transform: capitalize;
+
+    }
+     ul{
+         display: flex;
+       
+     }
+
+     ul li:hover a{
+        color: black;
+     }
+
+    h1,h3{
+        text-decoration: none;
+        text-align: center;
+        color: black;
+    }
+
+    .tiger{
+        width: 233px;
+        height: 233px;
+        margin: 15px;
+        border-radius: 10px;
+        box-shadow: 1px 5px 20px black;
+        opacity: .9;
+
+    }
+    .tiger:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+        cursor: pointer;
+        opacity: .4;
+    }
+    .tiger img{
+        width: 233px;
+        height: 233px;
+        border-radius: 10px;
+    }
+    .photo-row{
+        display: flex;
+    }
+
+  
+
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</li>
+                <li><a href="#">home</li>
+                <li><a href="#">home</li>
+            </ul>
+        </nav>
+    
+    </header>
+ 
+    <main>
+        <section>
+            <h1>My swesome photo album with tiger mama</h1>
+            <h3>mr.tiger</h3>
+        </section>
+        <section class="photo-row">
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+        </section>
+        <section class="photo-row">
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+        </section>
+        <section class="photo-row">
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+        </section>
+        <section class="photo-row">
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+            <div class="tiger">
+                <img src="./images/tiger.jpg" alt="">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
